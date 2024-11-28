@@ -1,5 +1,146 @@
-template-repository (1.0-1) unstable; urgency=medium
+libfile-readbackwards-perl (1.06-2) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libfile-readbackwards-perl: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 13 Oct 2022 15:21:34 +0100
+
+libfile-readbackwards-perl (1.06-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Laurent Baillet ]
+  * fix lintian file-contains-trailing-whitespace warning
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Bump debhelper from old 12 to 13.
+
+  [ gregor herrmann ]
+  * Import upstream version 1.06.
+  * Drop 01-spelling-error.diff, applied upstream.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.6.0.
+  * Add debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 27 Sep 2021 11:58:18 +0200
+
+libfile-readbackwards-perl (1.05-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Fabrizio Regalli from Uploaders. Thanks for your work!
+  * Add Testsuite declaration for autopkgtest-pkg-perl.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Niko Tyni ]
+  * Update to debhelper compat level 10
+  * Update to Standards-Version 4.1.3
+  * Declare that the package does not need (fake)root to build
+
+ -- Niko Tyni <ntyni@debian.org>  Fri, 30 Mar 2018 11:29:02 +0300
+
+libfile-readbackwards-perl (1.05-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/watch: use dist-based URL.
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza).
+  * debian/control: Added: ${misc:Depends} to Depends: field.
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ gregor herrmann ]
+  * debian/control: Added: Homepage field (source stanza).
+
+  [ Fabrizio Regalli ]
+  * New upstream release.
+  * Bump to 3.9.2 Standard-Version.
+  * Add myself to Uploaders and Copyright.
+  * Switch d/compat to 8.
+  * Build-Depends: switch to debhelper (>= 8).
+  * Switch to DEP5 license format.
+  * Switch to standard 3 lines d/rules.
+  * Switch to 3.0 quilt format.
+  * Added 01-spelling-error.diff patch.
+  * Removed unnecessary README.
+
+  [ gregor herrmann ]
+  * Remove call to uupdate from debian/watch.
+
+ -- Fabrizio Regalli <fabreg@fabreg.it>  Fri, 15 Jul 2011 14:52:23 +0200
+
+libfile-readbackwards-perl (1.04-3) unstable; urgency=low
+
+  * fix make clean target (lintian)
+  * update standards version
+  * fix Description (lintian)
+
+ -- Christoph Martin <Christoph.Martin@Uni-Mainz.DE>  Wed, 11 Jun 2008 17:51:57 +0200
+
+libfile-readbackwards-perl (1.04-2) unstable; urgency=low
+
+  * Upload package to alioth pkg-perl
+  * change maintainer to pkg-perl
+  * fix FTBFS error with perl-5.10 (closes: #467778)
+
+ -- Christoph Martin <christoph.martin@uni-mainz.de>  Tue,  4 Mar 2008 15:12:25 +0100
+
+libfile-readbackwards-perl (1.04-1) unstable; urgency=low
+
+  * New upstream release (closes: #329538)
+
+ -- Christoph Martin <christoph.martin@uni-mainz.de>  Thu, 22 Sep 2005 12:32:23 +0200
+
+libfile-readbackwards-perl (1.03-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Christoph Martin <christoph.martin@uni-mainz.de>  Fri,  4 Feb 2005 10:37:30 +0100
+
+libfile-readbackwards-perl (1.02-3) unstable; urgency=low
+
+  * add watch file
+
+ -- Christoph Martin <christoph.martin@uni-mainz.de>  Tue,  3 Aug 2004 14:58:54 +0200
+
+libfile-readbackwards-perl (1.02-2) unstable; urgency=low
+
+  * correct maintainer email-address in control and copyright
+
+ -- Christoph Martin <christoph.martin@uni-mainz.de>  Tue, 27 Apr 2004 10:39:07 +0200
+
+libfile-readbackwards-perl (1.02-1) unstable; urgency=low
+
+  * Initial Release (closes: #241045)
+
+ -- Christoph Martin <martin@uni-mainz.de>  Tue, 30 Mar 2004 15:22:41 +0200
